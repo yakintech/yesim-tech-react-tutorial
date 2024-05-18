@@ -7,9 +7,18 @@ function SuppliersPage() {
     
     const [suppliers, setsuppliers] = useState(suppliersData)
 
+    const deleteSupplier = (id) => {
+        let filteredSuppliers = suppliers.filter(q => q.id != id)
+        setsuppliers(filteredSuppliers)
+    }
+
+    const empty = () => {
+        setsuppliers([])
+    }
+
   return (<>
     <SuppliersSearch suppliers={suppliers}/>
-    <SuppliersTable suppliers={suppliers}/>
+    <SuppliersTable suppliers={suppliers} deleteSupplier={deleteSupplier} empty={empty}/>
   </>
   )
 }

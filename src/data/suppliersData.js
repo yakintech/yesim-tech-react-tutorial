@@ -174,7 +174,6 @@ export let suppliersData = [
         "contactTitle": "Marketing Manager",
         "address": {
             "street": "Hatlevegen 5",
-            "city": "Sandvika",
             "region": "NULL",
             "postalCode": 1320,
             "country": "Norway",

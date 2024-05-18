@@ -1,3 +1,5 @@
 Import Export
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
 
+Destructuring
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment?retiredLocale=tr
