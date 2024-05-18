@@ -11,11 +11,12 @@ import DashboardTasks from "./pages/DashboardTasks";
 import EffetSample from "./api/EffetSample";
 import PostSample from "./api/PostSample";
 import AxiosGetSample from "./api/AxiosGetSample";
+import AxiosMultiCall from "./api/AxiosMultiCall";
 
 function App() {
 
 
-  return <AxiosGetSample/>
+  return <AxiosMultiCall/>
 
   return (<>
     <h3>Site Header</h3>
