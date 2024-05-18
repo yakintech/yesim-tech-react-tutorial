@@ -19,7 +19,6 @@ function PostSample() {
             })
     }
 
-
     const addProduct = () => {
         let newProduct = {
             name,

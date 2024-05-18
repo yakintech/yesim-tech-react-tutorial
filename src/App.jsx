@@ -10,11 +10,12 @@ import DashboardMessages from "./pages/DashboardMessages";
 import DashboardTasks from "./pages/DashboardTasks";
 import EffetSample from "./api/EffetSample";
 import PostSample from "./api/PostSample";
+import AxiosGetSample from "./api/AxiosGetSample";
 
 function App() {
 
 
-  return <PostSample/>
+  return <AxiosGetSample/>
 
   return (<>
     <h3>Site Header</h3>

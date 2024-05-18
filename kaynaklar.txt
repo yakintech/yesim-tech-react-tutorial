@@ -3,3 +3,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/imp
 
 Destructuring
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment?retiredLocale=tr
+
+UseEffect Cleanup
+https://blog.logrocket.com/understanding-react-useeffect-cleanup-function/
