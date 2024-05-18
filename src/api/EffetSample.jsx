@@ -9,14 +9,14 @@ function EffetSample() {
             .then(res => res.json())
             .then(data => {
                 setproducts(data)
-                console.log("Data Çekildi")
             })
+            .catch(err => console.log(err))
     }, [])
 
     return (<>
         <ul>
             {
-                products.map(item => <li key={item.id}>{item.name}</li>)
+               products && products.map(item => <li key={item.id}>{item.name}</li>)
             }
         </ul>
     </>)

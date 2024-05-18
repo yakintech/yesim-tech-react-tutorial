@@ -9,11 +9,12 @@ import Dashboard from "./pages/Dashboard";
 import DashboardMessages from "./pages/DashboardMessages";
 import DashboardTasks from "./pages/DashboardTasks";
 import EffetSample from "./api/EffetSample";
+import PostSample from "./api/PostSample";
 
 function App() {
 
 
-  return <EffetSample/>
+  return <PostSample/>
 
   return (<>
     <h3>Site Header</h3>
