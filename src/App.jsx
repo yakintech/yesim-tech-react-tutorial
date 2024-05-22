@@ -12,11 +12,14 @@ import EffetSample from "./api/EffetSample";
 import PostSample from "./api/PostSample";
 import AxiosGetSample from "./api/AxiosGetSample";
 import AxiosMultiCall from "./api/AxiosMultiCall";
+import Intro from "./muiSample/Intro";
+import GridLayout from "./muiSample/GridLayout";
+import ProductsDataGrid from "./muiSample/ProductsDataGrid";
 
 function App() {
 
 
-  return <AxiosMultiCall/>
+  return <ProductsDataGrid/>
 
   return (<>
     <h3>Site Header</h3>
