@@ -15,11 +15,12 @@ import AxiosMultiCall from "./api/AxiosMultiCall";
 import Intro from "./muiSample/Intro";
 import GridLayout from "./muiSample/GridLayout";
 import ProductsDataGrid from "./muiSample/ProductsDataGrid";
+import AddCategoryForm from "./fomrSample/AddCategoryForm";
 
 function App() {
 
 
-  return <ProductsDataGrid/>
+  return <AddCategoryForm/>
 
   return (<>
     <h3>Site Header</h3>
