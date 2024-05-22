@@ -16,11 +16,12 @@ import Intro from "./muiSample/Intro";
 import GridLayout from "./muiSample/GridLayout";
 import ProductsDataGrid from "./muiSample/ProductsDataGrid";
 import AddCategoryForm from "./fomrSample/AddCategoryForm";
+import AddProductForm from "./fomrSample/AddProductForm";
 
 function App() {
 
 
-  return <AddCategoryForm/>
+  return <AddProductForm/>
 
   return (<>
     <h3>Site Header</h3>
