@@ -17,11 +17,11 @@ import GridLayout from "./muiSample/GridLayout";
 import ProductsDataGrid from "./muiSample/ProductsDataGrid";
 import AddCategoryForm from "./fomrSample/AddCategoryForm";
 import AddProductForm from "./fomrSample/AddProductForm";
+import ReactQueryIntro from "./react-query-sample/ReactQueryIntro";
 
 function App() {
 
 
-  return <AddProductForm/>
 
   return (<>
     <h3>Site Header</h3>
@@ -31,6 +31,7 @@ function App() {
       <li><Link to='/about'>About</Link></li>
       <li><Link to='/products'>Products</Link></li>
       <li><Link to='/dashboard'>Dashboard</Link></li>
+      <li><Link to='/react-query'>React Query</Link></li>
 
     </ul>
     <hr />
@@ -42,6 +43,7 @@ function App() {
       <Route path="/products" element={<ProductsPage />} />
       <Route path="/products/:id" element={<ProductDetail />} />
       <Route path="/products/:id/:subid" element={<ProductDetail />} />
+      <Route path="/react-query" element={<ReactQueryIntro />} />
 
       <Route path="/dashboard" element={<Dashboard />}>
         <Route
